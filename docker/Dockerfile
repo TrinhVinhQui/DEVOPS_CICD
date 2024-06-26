@@ -7,6 +7,6 @@ ENV APP_HOME /usr/src/app
 
 WORKDIR $APP_HOME
 
-COPY target/shopping-cart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
+COPY /var/lib/jenkins/workspace/CI_Pipeline/target/shopping-cart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
 
 ENTRYPOINT exec java -jar app.jar
