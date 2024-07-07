@@ -1,7 +1,7 @@
 
 FROM openjdk:8u151-jdk-alpine3.7
 
-EXPOSE 8050
+EXPOSE 8040
 
 ENV APP_HOME /usr/src/app
 
